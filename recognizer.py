@@ -4,7 +4,7 @@ import subprocess
 
 class Recognizer():
 
-    def recognize():
+    def recognize(self):
         print 'recording...'
         p1 = subprocess.call('rec record.wav rate 16k silence 1 0.1 3% 1 3.0 3%',shell=True)
         time.sleep(1)
