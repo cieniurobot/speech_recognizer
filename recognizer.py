@@ -14,6 +14,6 @@ class Recognizer():
 
 
 if __name__ == "__main__":
-    r = new Recognizer()
+    r = Recognizer()
     recognized_text = r.recognize()
     print recognized_text
